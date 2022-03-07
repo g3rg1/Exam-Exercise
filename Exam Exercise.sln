@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crooked Digits", "Croocked Digits\Crooked Digits.csproj", "{EAC5DB94-B443-4A52-BD7D-BE3E24673C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crooked Digits", "Croocked Digits\Crooked Digits.csproj", "{EAC5DB94-B443-4A52-BD7D-BE3E24673C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crooked Stairs", "Croocked Stairs\Crooked Stairs.csproj", "{22C4BAD4-A314-4397-BCC1-CC862706FFC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crooked Stairs", "Croocked Stairs\Crooked Stairs.csproj", "{22C4BAD4-A314-4397-BCC1-CC862706FFC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crooked Walls", "Crooked Walls\Crooked Walls.csproj", "{6F6103D6-9485-4A1D-B900-2C033D695A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crooked Walls", "Crooked Walls\Crooked Walls.csproj", "{6F6103D6-9485-4A1D-B900-2C033D695A7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017_10_11", "2017_10_11", "{240CDFD5-0649-48E7-88E7-61CFFBC565BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017_10_13", "2017_10_13", "{E8A9D709-116A-44F2-8BB5-2C51831FEEE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yesterday", "Yesterday\Yesterday.csproj", "{6E486E70-D6C6-41C0-B23A-71AF46BB6B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime_Triangle", "Prime_Triangle\Prime_Triangle.csproj", "{E1531005-C66B-47FE-932D-AAC7F7C5F4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hops", "Hops\Hops.csproj", "{F0CC9EBF-62D8-42B8-94B3-895C8D43BCA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +37,29 @@ Global
 		{6F6103D6-9485-4A1D-B900-2C033D695A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6103D6-9485-4A1D-B900-2C033D695A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6103D6-9485-4A1D-B900-2C033D695A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E486E70-D6C6-41C0-B23A-71AF46BB6B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E486E70-D6C6-41C0-B23A-71AF46BB6B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E486E70-D6C6-41C0-B23A-71AF46BB6B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E486E70-D6C6-41C0-B23A-71AF46BB6B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1531005-C66B-47FE-932D-AAC7F7C5F4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1531005-C66B-47FE-932D-AAC7F7C5F4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1531005-C66B-47FE-932D-AAC7F7C5F4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1531005-C66B-47FE-932D-AAC7F7C5F4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CC9EBF-62D8-42B8-94B3-895C8D43BCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CC9EBF-62D8-42B8-94B3-895C8D43BCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CC9EBF-62D8-42B8-94B3-895C8D43BCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CC9EBF-62D8-42B8-94B3-895C8D43BCA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAC5DB94-B443-4A52-BD7D-BE3E24673C92} = {240CDFD5-0649-48E7-88E7-61CFFBC565BC}
+		{22C4BAD4-A314-4397-BCC1-CC862706FFC8} = {240CDFD5-0649-48E7-88E7-61CFFBC565BC}
+		{6F6103D6-9485-4A1D-B900-2C033D695A7B} = {240CDFD5-0649-48E7-88E7-61CFFBC565BC}
+		{6E486E70-D6C6-41C0-B23A-71AF46BB6B33} = {E8A9D709-116A-44F2-8BB5-2C51831FEEE6}
+		{E1531005-C66B-47FE-932D-AAC7F7C5F4A6} = {E8A9D709-116A-44F2-8BB5-2C51831FEEE6}
+		{F0CC9EBF-62D8-42B8-94B3-895C8D43BCA0} = {E8A9D709-116A-44F2-8BB5-2C51831FEEE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E4B708F-3FCC-4B59-AE46-2AFF47FA40EE}
