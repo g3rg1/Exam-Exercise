@@ -18,23 +18,24 @@ namespace Hops
             int maxResult = int.MinValue;
             for (int i = 0; i < m; i++)
             {
-                int[] coords = new int[m];
                 var stringCoords = Console.ReadLine();
                 var coordsElem = stringCoords.Split(", ");
+                int[] coords = new int[coordsElem.Length];
                 for (int j = 0; j < coords.Length; j++)
                 {
-                    coords[i] = int.Parse(coordsElem[i]);
+                    coords[j] = int.Parse(coordsElem[j]);
                 }
 
                 int currentIndex = 0;
-                int currentSum = 0;
+                int currentSum = nums[0];
                 for (int j = 0; j < m; j++)
                 {
-                    currentIndex += coords[i];
+                    currentIndex += coords[j];
                     if(currentIndex > nums.Length-1 || currentIndex < 0)
                     {
                         break;
                     }
+
                     currentSum += nums[currentIndex];
                     if (currentSum > maxResult)
                     {
